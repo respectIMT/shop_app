@@ -109,7 +109,8 @@ class _UiScreenState extends State<UiScreen> {
         padding: EdgeInsets.all(12),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
-          image: DecorationImage(image: AssetImage(item), fit: BoxFit.cover),
+          image: DecorationImage(image: Asset
+          Image(item), fit: BoxFit.cover),
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.end,
